@@ -1,45 +1,51 @@
-# <img src="./Docs/Icon.png" alt="Ícone do Projeto" width="100"/> <br>Nome do Projeto
+# <img src="./Docs/Icon.png" alt="Ícone do Projeto" width="100"/> <br>WebScoop - Previsão Meteorológica
 
 <img src="./Docs/BannerGithub.png" alt="Banner do Projeto" width="800"/>
 
-Descrição breve do projeto.
+Aplicação simples e eficaz para obter previsões meteorológicas de qualquer cidade através de uma interface gráfica amigável.
 
 ## Descrição
 
-Explique aqui o propósito do projeto, os conceitos que aborda e o que espera aprender ou realizar com ele.
+O projeto **WebScoop - Previsão Meteorológica** foi criado com o objetivo de permitir aos utilizadores consultar a previsão do tempo de forma fácil e rápida. Esta aplicação utiliza a API do OpenWeatherMap para recolher dados climáticos em tempo real e exibi-los numa interface gráfica construída com `tkinter`. É ideal para aprender a usar bibliotecas de rede, como `requests`, e manipulação de interfaces gráficas em Python.
 
 ## Funcionalidades
 
-- [ ] Funcionalidade 1
-- [ ] Funcionalidade 2
-- [ ] Funcionalidade 3
+- [x] Consultar a previsão do tempo de qualquer cidade.
+- [x] Exibir a temperatura atual e as condições meteorológicas.
+- [x] Interface gráfica intuitiva e de fácil utilização.
+- [x] Tratamento de erros de conexão e mensagens informativas.
+- [ ] Implementação futura: exibição de previsões para vários dias.
 
 ## Tecnologias Utilizadas
 
-- Linguagem de Programação: [Nome da Linguagem]
-- IDE: [Nome da IDE]
+- **Linguagem de Programação**: Python
+- **Bibliotecas**:
+  - `tkinter` para a interface gráfica.
+  - `requests` para obter dados da API.
+  - `BeautifulSoup` (possível uso futuro para formatação de dados).
+- **IDE**: Visual Studio Code
 
-## Prints de Tela
+## Capturas de Ecrã
 
 Visuais -> [Ver Agora](./Docs/Pages/Visual.md)
 
-| Print 1 | Print 2 | Print 3 |
-|---------|---------|---------|
-| <img src="./Docs/Prints/print1.png" alt="Print 1" width="250"/> | <img src="./Docs/Prints/print2.png" alt="Print 2" width="250"/> | <img src="./Docs/Prints/print3.png" alt="Print 3" width="250"/> |
+| Captura 1 | Captura 2 | Captura 3 |
+|-----------|-----------|-----------|
+| <img src="./Docs/Prints/print1.png" alt="Captura 1" width="250"/> | <img src="./Docs/Prints/print2.png" alt="Captura 2" width="250"/> | <img src="./Docs/Prints/print3.png" alt="Captura 3" width="250"/> |
 
 ## Como Utilizar
 
-Explique aqui como iniciar ou usar o projeto, com exemplos de comandos e parâmetros que podem ser passados.
-
-comando para iniciar o projeto
-
+1. **Dar Clone**:
+    ```bash
+     git clone https://github.com/ProjetosLendarios/PyClima.git
+     ```
 ## Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para enviar issues ou pull requests.
+Contribuições são bem-vindas! Sinta-se à vontade para enviar issues ou pull requests com sugestões de novas funcionalidades ou melhorias de código.
 
 ## Autor
 <img src="https://avatars.githubusercontent.com/u/50460047?v=4" alt="Gonçalo Garrido" width="75"/><br>
-Nome: Gonçalo Garrido <br>
-Email: Goncalosantosgarrido+LearningProgram@gmail.com<br><br>
-[![Portfolio](https://img.shields.io/badge/Portfolio-Ver%20Agora-blue?style=for-the-badge&logoColor=white)](https://goncalogarrido2.github.io/GoncaloGarrido/)
+**Nome**: Gonçalo Garrido  
+**Email**: Goncalosantosgarrido+LearningProgram@gmail.com  
 
+[![Portefólio](https://img.shields.io/badge/Portefólio-Ver%20Agora-blue?style=for-the-badge&logoColor=white)](https://goncalogarrido2.github.io/GoncaloGarrido/)
